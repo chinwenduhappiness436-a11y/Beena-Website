@@ -1,0 +1,402 @@
+
+/* GENERAL STYLING */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* NAVIGATION BAR */
+
+header {
+    background-color: #ffffff;
+    width: 100%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 7%;
+}
+
+.logo img {
+   width: 90px;
+   height: 80px;
+   object-fit: fill ;
+}
+/* HAMBURGER MENU */
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: #102F8C;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    padding-left: 250px;
+}
+
+.nav-links a {
+    color: #102F8C;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #D71920;
+}
+
+.nav-btn {
+    background-color: #D71920;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+/* SERVICES HERO SECTION */
+.services-hero {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 80px 8%;
+
+    background:
+        linear-gradient(
+            to right,
+            rgba(16, 47, 140, 0.95),
+            rgba(16, 47, 140, 0.40),
+            rgba(16, 47, 140, 0.2)
+        ),
+        url("/Beena-Website/IMAGES/2bccc922-052e-456f-bd74-610ccc58.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.services-hero-content {
+    max-width: 650px;
+    color: #ffffff;
+}
+
+.services-subtitle {
+    color: #D71920;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.services-hero h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.services-hero-content > p:not(.services-subtitle) {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.services-hero-btn {
+    display: inline-block;
+    background-color: #D71920;
+    color: #ffffff;
+    padding: 14px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.services-hero-btn:hover {
+    background-color: #ffffff;
+    color: #102F8C;
+}
+/* SERVICES INTRODUCTION */
+.services-intro {
+    padding: 80px 8%;
+    background-color: #ffffff;
+}
+
+.services-intro-content {
+    max-width: 850px;
+    margin: auto;
+    text-align: center;
+}
+
+.section-subtitle {
+    color: #D71920;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.services-intro h2 {
+    color: #102F8C;
+    font-size: 36px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.services-intro-content > p:last-child {
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.9;
+}
+/* OUR SERVICES SECTION */
+.our-services {
+    padding: 90px 8%;
+    background-color: #F3F5F8;
+}
+
+.services-heading {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 45px;
+}
+
+.services-heading h2 {
+    color: #102F8C;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.services-heading > p:last-child {
+    color: #555;
+    line-height: 1.8;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    max-width: 1100px;
+    margin: auto;
+}
+/* SERVICE CARD BACKGROUND IMAGES */
+
+.procurement {
+    background-image: url("/Beena-Website/IMAGES/How\ Nexans’\ E3\ Framework\ Sets\ a\ New\ Standard\ for___.jpg");
+}
+
+.fabrication {
+    background-image: url("/Beena-Website/IMAGES/Excellence\ in\ Metal\ Fabrication\ for\ Modern\ Infrastructure.jpg");
+}
+
+.construction {
+    background-image: url("/Beena-Website/IMAGES/Construction\ industrielle_\ Normes\ et\ réglementations\ à\ respecter.jpg");
+}
+
+.maintenance {
+    background-image: url("/Beena-Website/IMAGES/image.png");
+}
+.catering {
+    background-image: url("/Beena-Website/IMAGES/download\ \(5\).jpg");
+}
+.cleaning {
+    background-image: url("/Beena-Website/IMAGES/How\ To\ Compare\ Cleaning\ Services\ In\ Ireland\ On\ Price\,\ Quality\,\ And\ Reliability.jpg");
+}
+.waste {
+    background-image: url("/Beena-Website/IMAGES/Fast\,\ Local\ Yard\ Debris\ Pickup\ in\ Perry\ Hall\ &\ White\ Marsh\ 🌿.jpg");
+}
+.marine {
+    background-image: url("/Beena-Website/IMAGES/Download\ Free\ Vectors\,\ Images\,\ Photos\ &\ Videos\ _\ Vecteezy.jpg    ");
+}
+.ship {
+    background-image: url("/Beena-Website/IMAGES/download\ \(6\).jpg");
+}
+
+.service-card {
+    min-height: 320px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.service-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0.1)
+    );
+    transition: 0.4s ease;
+}
+
+.service-card:hover::before {
+    background: rgba(16, 47, 140, 0.30);
+}
+
+.service-card-content {
+    position: relative;
+    z-index: 1;
+    padding: 30px;
+    color: white;
+}
+
+.service-card-content i {
+    color: #D71920;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.service-card-content h3 {
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.service-card-content p {
+    font-size: 15px;
+    line-height: 1.7;
+}
+/* SERVICE CARD HOVER EFFECT */
+
+.service-card {
+    transition: transform 0.4s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+}
+
+.service-card-content {
+    transition: transform 0.4s ease;
+}
+
+.service-card:hover .service-card-content {
+    transform: translateY(-10px);
+}
+/* FOOTER */
+
+footer {
+    background-color: #101b35;
+    color: white;
+    padding: 50px 7% 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 35px;
+}
+
+.footer-about{
+      max-width: 350px;
+}
+.footer-links {
+    max-width: 350px;
+    position: relative;
+    left: 120px;
+}
+
+.footer-content h3 {
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    display: block;
+    color: #ddd;
+    margin-bottom: 8px;
+}
+.social-icons {
+    display: flex;
+    gap: 18px;
+    padding-top: 30px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 22px;
+    transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #D71920;
+    transform: translateY(-4px);
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+
+.fa-location-dot {
+    font-size: 20px;
+}
+.footer-address {
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    left: 40px;
+}
+
+
+.footer-address p {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.footer-address h3 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.footer-address p {
+    color: white;
+    line-height: 1.7;
+}
+.copyright {
+    text-align: center;
+    border-top: 1px solid #45506a;
+    padding-top: 20px;
+    font-size: 13px;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
