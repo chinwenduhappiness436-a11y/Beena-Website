@@ -92,6 +92,7 @@ header {
             rgba(8, 28, 75, 0.05)
         ),
         url("../IMAGES/vnJY7yhs-3I35ABEP9YmyKsnVtVGNFIg.png");
+        url("../IMAGES/vnJY7yhs-3I35ABEP9YmyKsnVtVGNFIg.png");
 
     background-size: cover;
     background-position: center;
@@ -288,19 +289,19 @@ header {
 /* BACKGROUND IMAGES */
 
 .procurement {
-    background-image: url("Beena-Website/IMAGES/download.jpg");
+    background-image: url("/Beena-Website/IMAGES/download.jpg");
 }
 
 .fabrication {
-    background-image: url("Beena-Website/IMAGES/lahir\ kerja\ mati.jpg");
+    background-image: url("/Beena-Website/IMAGES/lahir\ kerja\ mati.jpg");
 }
 
 .construction {
-    background-image: url("Beena-Website/IMAGES/Agbeko\ Company\ -\ Location\ de\ Matériel\ de\ Coffrage.jpg");
+    background-image: url("/Beena-Website/IMAGES/Agbeko\ Company\ -\ Location\ de\ Matériel\ de\ Coffrage.jpg");
 }
 
 .maintenance {
-    background-image: url("Beena-Website/IMAGES/2bccc922-052e-456f-bd74-610ccc58.png");
+    background-image: url("/Beena-Website/IMAGES/2bccc922-052e-456f-bd74-610ccc58.png");
 }
 
 
